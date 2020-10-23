@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3866" started-at="2020-10-23T09:21:18 IST" finished-at="2020-10-23T09:21:22 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3866" started-at="2020-10-23T09:21:18 IST" finished-at="2020-10-23T09:21:22 IST">
+      <class name="gitciselenium.SeleniumDemo">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:gitciselenium.SeleniumDemo@394e1a0f]" name="setUp" is-config="true" duration-ms="2306" started-at="2020-10-23T09:21:18 IST" finished-at="2020-10-23T09:21:21 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="userLogin()[pri:0, instance:gitciselenium.SeleniumDemo@394e1a0f]" name="userLogin" duration-ms="1466" started-at="2020-10-23T09:21:21 IST" finished-at="2020-10-23T09:21:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userLogin -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:gitciselenium.SeleniumDemo@394e1a0f]" name="tearDown" is-config="true" duration-ms="70" started-at="2020-10-23T09:21:22 IST" finished-at="2020-10-23T09:21:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- gitciselenium.SeleniumDemo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -34,13 +34,17 @@ public class SeleniumDemo
     @Test
     public void userLogin()
     {
+    	driver.manage().timeouts().pageLoadTimeout(15, TimeUnit.SECONDS);
         WebElement searchTxt = driver.findElement(By.name("q"));
         searchTxt.sendKeys("automation");
         WebElement submitBtn = driver.findElement(By.name("btnK"));
         submitBtn.click();
+        System.out.println("\n");
         System.out.println("Current URL is:" + driver.getCurrentUrl());
+        System.out.println("\n");
         Assert.assertTrue(driver.getTitle().contains("automation - Google Search"));
         System.out.println("Current Title is:" + driver.getTitle());
+        System.out.println("\n");
     }
 
     @AfterClass
