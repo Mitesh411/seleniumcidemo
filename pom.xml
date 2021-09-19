@@ -30,14 +30,14 @@
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-surefire-plugin</artifactId>
   <configuration>
-      <argLine>-javaagent:./thundra-agent-bootstrap-2.7.36.jar -Dthundra.apiKey=302ae36c-b2b9-49c6-97e6-fb8498ad516d -Dthundra.agent.test.project.id=8be831c6-5c65-4cae-85ba-0ca11befd4b8</argLine>
+      <argLine>-javaagent:thundra-agent-bootstrap-2.7.36.jar -Dthundra.apiKey=302ae36c-b2b9-49c6-97e6-fb8498ad516d -Dthundra.agent.test.project.id=8be831c6-5c65-4cae-85ba-0ca11befd4b8</argLine>
   </configuration>
 </plugin>
 <plugin>
   <groupId>org.apache.maven.plugins</groupId>
   <artifactId>maven-failsafe-plugin</artifactId>
   <configuration>
-      <argLine>-javaagent:./thundra-agent-bootstrap-2.7.36.jar -Dthundra.apiKey=302ae36c-b2b9-49c6-97e6-fb8498ad516d -Dthundra.agent.test.project.id=8be831c6-5c65-4cae-85ba-0ca11befd4b8</argLine>
+      <argLine>-javaagent:thundra-agent-bootstrap-2.7.36.jar -Dthundra.apiKey=302ae36c-b2b9-49c6-97e6-fb8498ad516d -Dthundra.agent.test.project.id=8be831c6-5c65-4cae-85ba-0ca11befd4b8</argLine>
   </configuration>
   <executions>
       <execution>
